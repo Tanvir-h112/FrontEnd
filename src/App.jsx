@@ -5,6 +5,7 @@ import About from "./component/pages/About";
 import Help from "./component/pages/Help";
 import ClockPage from './component/pages/ClockPage';
 import Tasks from './component/pages/Tasks';
+import Contact from './component/pages/Contact';
 
 
 const App = ()=> {
@@ -15,6 +16,8 @@ const App = ()=> {
             <Help path='/help' />
             <ClockPage path='/clock' />
             <Tasks path='/tasks' />
+            <Contact path='contact' />
+            
         </Router>
     )
 }

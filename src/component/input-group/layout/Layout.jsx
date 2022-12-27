@@ -27,6 +27,9 @@ function Layout(props){
                         <li>
                             <Link to='/tasks' className={path == '/tasks' ? classes.navItemActive : classes.navItem}>Tasks</Link>
                         </li>
+                        <li>
+                            <Link to='/contact' className={path == '/contact' ? classes.navItemActive : classes.navItem}>Contact</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
